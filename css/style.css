@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.header{
+    background-color: #2851E3;
+    padding: 22.5px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    column-gap: 30px;
+}
+.nav-list li {
+    display: inline-block;
+}
+
+.login-btns{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.login{
+    padding: 8px 22px;
+    background-color: #fff;
+    color: #3563E9;
+    font-size: 16px;
+    font-weight: 400;
 }
