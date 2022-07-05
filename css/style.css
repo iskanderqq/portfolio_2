@@ -33,10 +33,32 @@
     display: inline-block;
 }
 
+.nav-list a{
+    color: #E0E0E0;
+    font-size: 14px;
+    font-weight: 600;  
+}
+
+.nav-list a:hover{
+    color: #fff;
+    font-weight: 700;
+}
+
 .login-btns{
     display: flex;
     column-gap: 20px;
     align-items: center;
+    justify-content: space-between;
+}
+
+.lang-choice{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 7px;
 }
 
 .login{
@@ -45,4 +67,37 @@
     color: #3563E9;
     font-size: 16px;
     font-weight: 400;
+    border-radius: 5%;
+}
+
+/* Home styles */
+
+.home{
+    background-color: #000000;
+    padding: 80px;
+}
+
+.home-block{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.home-desc-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.home-desc{
+    margin-bottom: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: #fff;
+}
+.home-desc-text{
+    margin-bottom: 50px;
+}
+.home-desc-button{
+
 }
