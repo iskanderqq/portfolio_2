@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -250,4 +251,159 @@
     font-size: 16px;
     font-weight: 400;
     color: #616161;
+}
+
+/* acc create styles */
+
+.acc{
+    padding: 80px 0;
+}
+
+.acc-block{
+    padding: 60px 91px;
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3563E9;
+}
+
+.create-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.acc-name{
+    margin-bottom: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.acc-desc{
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.acc-block-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+.acc-input{
+    flex-grow: 1;
+    color: #000;
+    outline: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    background-image: url(../images/getaccount/Feather\ Icon.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.acc-btn{
+    padding: 12px 22px;
+    background-color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* reviews styles */
+
+.reviews{
+    padding: 80px 0;
+}
+.reviews-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.review-title{
+    text-align: center;
+}
+.review-title-main{
+    margin-bottom: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #212121;
+    text-transform: capitalize;
+}
+.review-title-desc{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.slider-form{
+    display: flex;
+}
+.left-side, .right-side{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*  */
+
+
+.reviews-slider{
+    width: 100%;
+    
+    /* display: flex; */
+    justify-content: space-evenly;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.review-btn{
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.slider-form{
+    padding: 20px;
+    width: 200%;
+    transition: all ease 1s;
+    
+}
+
+/*  */
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    row-gap: 20px;
+}
+.review-text{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+}
+.review-person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person_name{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
 }
