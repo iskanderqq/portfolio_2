@@ -1,4 +1,12 @@
+// modal window
 
+document.querySelector('.lang-choice-btn').onclick = function(){
+    document.querySelector('.languages').classList.toggle('hide')
+    
+}
+
+
+// slider
 document.querySelector('#next').onclick = function next(){
     leftSideWidth = document.querySelector('.left-side').offsetWidth;
     console.log(leftSideWidth)
