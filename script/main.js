@@ -5,6 +5,11 @@ document.querySelector('.lang-choice-btn').onclick = function(){
     
 }
 
+
+
+
+
+
 // 
 let nav = document.querySelector('.nav');
 let navBtn = document.querySelector('#nav-btn');
