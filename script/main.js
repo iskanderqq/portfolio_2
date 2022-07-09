@@ -5,6 +5,20 @@ document.querySelector('.lang-choice-btn').onclick = function(){
     
 }
 
+// 
+let nav = document.querySelector('.nav');
+let navBtn = document.querySelector('#nav-btn');
+let navBtnImage = document.querySelector('#nav-btn-img');
+
+navBtn.onclick = () => {
+    if (nav.classList.toggle('open')){
+        navBtnImage.src = '/images/header/nav-close.svg'
+    } else {
+        navBtnImage.src = '/images/header/nav-open.svg'
+    }
+}
+
+
 
 // slider
 document.querySelector('#next').onclick = function next(){
