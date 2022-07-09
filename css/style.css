@@ -63,6 +63,7 @@
 }
 
 .languages{
+    display: none;
     width: 100%;
     position: absolute;
     top: 0;
@@ -73,9 +74,7 @@
     padding: 10px;
     text-align: center;
 }
-.hide{
-    display: none;
-}
+
 .languages button{
     font-size: 20px;
     cursor: pointer;
@@ -87,7 +86,15 @@
 .lang-choice-btn{
     cursor: pointer;
 }
-
+.lang-choice-btn:hover~ .languages{
+    display: block;
+}
+.languages:hover{
+    display: block;
+}
+.world:hover~ .languages{
+    display: block;
+}
 
 /*  */
 
