@@ -21,8 +21,6 @@
         flex-direction: column;
         align-items: flex-start;
         row-gap: 20px;
-        
-        
     }
     .nav-list li a{
         font-size: 30px;
@@ -43,15 +41,75 @@
         right: 30px;
     }
 
-
-
-
-
-
-
-
-
     .login-btns{
         display: none;
     }
+
+    .home-img{
+        display: none;
+    }
+    .home-desc-block{
+        align-items: center;
+        text-align: center;
+    }
+
+    .after-home-item{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .after-home-item-desc{
+        width: 50%;
+    }
+
+    .create-form{
+        align-items: center;
+        text-align: center;
+    }
+
+    .acc-image{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .after-home-title{
+        align-items: center;
+        text-align: center;
+    }
+    .after-home-item img{
+        display: none;
+    }
+
+    .feature-items{
+        flex-direction: column;
+    }
+
+    .acc-block{
+       padding: 0;
+       column-gap: 0;
+    }
+    .acc-block-form{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+   .slider-form{
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    width: 100%;
+   }
+   .left-side, .right-side{
+    flex-direction: column;
+    row-gap: 15px;
+   }
+   .review-btn{
+    display: none;
+   }
+   .review{
+    margin-bottom: 20px;
+   }
 }
